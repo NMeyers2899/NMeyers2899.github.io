@@ -1,0 +1,25 @@
+header{
+    background-color: #4C413C;
+}
+body {
+    background-color: #B74646;
+    color: #FAF7F3;
+}
+a {
+    text-decoration: none;
+    color: #D0A99F
+}
+a:hover{
+    color: #F1EEEC;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.name {
+    color:#FAF7F3;
+    font-weight: 800;
+}
+.description {
+    color: #FAF7F3;
+}
