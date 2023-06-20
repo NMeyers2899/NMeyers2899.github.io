@@ -1,5 +1,20 @@
 <head>
     <link rel="stylesheet" href="/assets/css/style.css">
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        img{
+            margin-left: 37%;
+        }
+        a{
+            padding-left: 1.5%;
+        }
+    </style>
 </head>
 
 <header>
@@ -9,5 +24,34 @@
 </header>
 
 <body>
-    
+    <h1>Dead Man Jack</h1>
+    <p>
+        I worked on aspects of the player for this game. From the movement, to how Jack shoots.
+        Anything to do with his grab, or how the player scores points were all done by me.
+    </p>
+    <h2>Abilities</h2>
+    <img src="/assets/gifs/AbilityChange.gif" width = 500>
+    <p> 
+        The main thing I worked on for Dead Man Jack were the abilities he would
+        be able to pick up from grabbing enemies. Each enemy had a different ability 
+        they would give Jack when grabbed. Working with regular classes in Unity is 
+        a little tougher due to all aspects of an actor being a component. Abilities
+        use a component, but get around being one themselves. 
+    </p>
+    <img src="/assets/images/EnemyAbilityInUnity.png" width = 500>
+    <p>
+        By making the Abilities class serializable, I was able to give each enemy
+        type their own ability that they would then transfer to the player when
+        they were grabbed by them.
+    <p></p>
+    <img src="/assets/gifs/SkeletonAbility.gif" width = 500>
+    <p> 
+        My absolute favorite ability to create was the bonemerang. You could gain
+        this ability by grabbing onto a skeleton. Firing it would send it a ways 
+        before it would eventually make its way back to you. It would do this by 
+        using a seek behavior with the player character as its target. Simply touching
+        the bonermerang would give you the ability again to use as you saw fit. The
+        one thing I wasn't as big of a fan of with it was that if you were to catch it
+        again, it would replace your current ability.
+    </p>
 </body>
