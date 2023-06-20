@@ -2,8 +2,9 @@ header{
     background-color: #4C413C;
 }
 body {
-    background-color: #B74646;
+    background-color: #38292C;
     color: #FAF7F3;
+    margin: 0px;
 }
 a {
     text-decoration: none;
@@ -37,6 +38,7 @@ h1{
 
 .name {
     font-weight: 800;
+    margin: 0px;
 }
 .center {
     display: block;
