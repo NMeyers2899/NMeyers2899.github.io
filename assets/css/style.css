@@ -3,7 +3,6 @@ header{
 }
 body {
     background-color: #613636;
-    color: #FAF7F3;
     margin: 0px;
 }
 a {
@@ -23,12 +22,12 @@ p{
     margin-right: 30%;
 }
 ul{
-    list-style-type: none;
-    margin-left: 30%;
+    text-align: center;
 }
 li{
     display: inline-table;
-    padding-left: 5%;
+    text-align: center;
+    padding: 0.5%
 }
 img{
     justify-content: center;
@@ -38,15 +37,10 @@ img{
 }
 h1{
     color:#FAF7F3;
-    text-align: center;
 }
 
 .name {
     font-weight: 800;
     margin: 0px;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }

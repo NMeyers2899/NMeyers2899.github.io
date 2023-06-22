@@ -1,22 +1,11 @@
 <head>
     <link rel="stylesheet" href="/assets/css/style.css">
-
-    <style>
-        ul{
-            padding-left: 5%;
-        }
-
-        .blog-image{
-           
-
-        }
-    </style>
 </head>
 
 <header>
     <h1 class="name">Blog</h1>
     <hr>
-    <a class="a" href="index.html" style="justify-content: center;">Back to Main Page</a>
+    <a href="index.html">Back to Main Page</a>
 
     <ul>
         <li><h2><a href="contact.html">Contact</a></h2></li>
@@ -28,12 +17,12 @@
 </header>
 
 <body>
-    <h1>Dead Man Jack</h1>
+    <h1 class="name">Dead Man Jack</h1>
     <p>
         I worked on aspects of the player for this game. From the movement, to how Jack shoots.
         Anything to do with his grab, or how the player scores points were all done by me.
     </p>
-    <img src="/assets/gifs/AbilityChange.gif" width = 500 class="blog-image">
+    <img src="/assets/gifs/AbilityChange.gif">
     <p> 
         The main thing I worked on for Dead Man Jack were the abilities he would
         be able to pick up from grabbing enemies. Each enemy had a different ability 
@@ -41,13 +30,13 @@
         a little tougher due to all aspects of an actor being a component. Abilities
         use a component, but get around being one themselves. 
     </p>
-    <img src="/assets/images/EnemyAbilityInUnity.png" width = 500>
+    <img src="/assets/images/EnemyAbilityInUnity.png" width = 400>
     <p>
         By making the Abilities class serializable, I was able to give each enemy
         type their own ability that they would then transfer to the player when
         they were grabbed by them.
     <p></p>
-    <img src="/assets/gifs/SkeletonAbility.gif" width = 500>
+    <img src="/assets/gifs/SkeletonAbility.gif" width=500>
     <p> 
         My absolute favorite ability to create was the bonemerang. You could gain
         this ability by grabbing onto a skeleton. Firing it would send it a ways 
