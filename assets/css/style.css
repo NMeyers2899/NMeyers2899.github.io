@@ -8,7 +8,8 @@ body {
 a {
     text-decoration: none;
     color: #D0A99F;
-    text-align: center;
+    justify-content: center;
+    
 }
 a:hover{
     color: #F1EEEC;
@@ -26,8 +27,7 @@ ul{
 }
 li{
     display: inline-table;
-    text-align: center;
-    padding: 0.5%
+    padding: 1%;
 }
 img{
     display: block;
@@ -44,5 +44,5 @@ h1{
     text-align: center;
 }
 .new-page-link {
-    font-size: 30;
+    font-size: 25;
 }
