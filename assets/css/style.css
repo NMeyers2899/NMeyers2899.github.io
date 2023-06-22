@@ -30,10 +30,9 @@ li{
     padding: 0.5%
 }
 img{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1{
     color:#FAF7F3;
@@ -43,4 +42,7 @@ h1{
     font-weight: 800;
     margin: 0px;
     text-align: center;
+}
+.new-page-link {
+    font-size: 30;
 }
